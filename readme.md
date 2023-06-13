@@ -19,4 +19,14 @@ push对应的寄存器是 ss sp
 push 是 reg to mem 写内存.
 
 
+loop对应的寄存器 是cx
+
+
+
+db 'unIX'
+写下 unIX 四个字母对应的ascii码
+
+在汇编器中，单引号表示用 ascii 方式编码字符.
+
+inc bx 就是 bx++ 自增一
 
